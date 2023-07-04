@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laravel 9 Custom Login Registration</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .sidebar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        .widget {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #ddd;
+            cursor: move;
+        }
+    </style>
 </head>
 <body>
 
@@ -38,6 +56,7 @@
             </div>
         </div>
     </nav>
+    
     <div class="container mt-5">
 
         @yield('content')
