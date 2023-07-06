@@ -10,10 +10,11 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: 200px;
+            width: 160px;
             height: 100%;
             background-color: #f1f1f1;
             padding: 20px;
+            margin-top: 20px;
         }
 
         .widget {
